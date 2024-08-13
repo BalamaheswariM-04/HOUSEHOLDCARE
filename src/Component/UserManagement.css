@@ -1,0 +1,82 @@
+.user-management {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.header button {
+    padding: 10px 20px;
+    background-color: #f0ad4e;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+td span {
+    display: block;
+}
+
+.role {
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    color: white;
+}
+
+.role.worker {
+    background-color: #5bc0de;
+}
+
+.role.customer {
+    background-color: #5cb85c;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+.pagination span {
+    margin-right: 10px;
+}

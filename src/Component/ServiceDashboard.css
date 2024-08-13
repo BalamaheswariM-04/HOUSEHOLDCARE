@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.ser-dashboard {
+    background-color: #343a40;
+    color: #fff;
+    height: 100vh;
+}
+
+.ser-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #272b30;
+    border-bottom: 1px solid #444;
+}
+
+.ser-header h1 {
+    margin: 0;
+}
+
+.account-overview {
+    padding: 20px;
+}
+
+.account-overview h2 {
+    margin-bottom: 20px;
+}
+
+.overview-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ser-card {
+    background-color: #495057;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.ser-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #adb5bd;
+}
+
+.ser-card h3 {
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}

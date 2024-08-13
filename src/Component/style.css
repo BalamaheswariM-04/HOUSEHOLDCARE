@@ -1,0 +1,16 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  .legend {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: white !important;
+    font-size: 1.2rem !important;
+    padding: 10px !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+  }

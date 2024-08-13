@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* .dashboard-header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.dashboard-header nav ul li {
+    margin-right: 20px;
+}
+
+.dashboard-header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+} */
+
+.dashboard-cards1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    height:fit-content;
+}
+
+.card1 {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card1.red {
+    background-color: #e74c3c;
+}
+
+.card1.orange {
+    background-color: #f39c12;
+}
+
+.card1.blue {
+    background-color: #3498db;
+}
+
+.card1.green {
+    background-color: #2ecc71;
+}
+
+.dashboard-metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.metric {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #ddd;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inner-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #3498db;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.inner-circle.red {
+    background-color: #e74c3c;
+}
+
+.inner-circle.orange {
+    background-color: #f39c12;
+}
+
+.donut-chart {
+    text-align: center;
+    margin: 20px;
+}
+
+.donut-chart-inner {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #3498db;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: bold;
+    flex-direction: column;
+}

@@ -1,0 +1,78 @@
+/* LoginPage.css */
+
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+.loginform-container {
+  flex: 1;
+  padding: 50px;
+  background: #a89e9e;
+  box-shadow: 0 0 10px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.description {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left:110px ;
+  font-size: 16px;
+  width: 50vh;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.terms-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.button1 {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: #28a745;
+  color: #fff;
+  font-size: 16px;
+  /* margin-right: 100px; */
+  margin-left: 300px;
+  width: fit-content;
+}
+
+.image-container {
+  flex: 1;
+  background: url('https://st2.depositphotos.com/3487615/5984/v/450/depositphotos_59849337-stock-illustration-green-home-vector-logo-design.jpg') no-repeat center center;
+  background-size: cover;
+}

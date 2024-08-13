@@ -1,0 +1,58 @@
+.services-management {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-service {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-service input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.add-service button {
+    padding: 8px 20px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+td select, td button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+td button {
+    background-color: #f0ad4e;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

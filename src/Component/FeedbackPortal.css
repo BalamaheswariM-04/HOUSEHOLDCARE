@@ -1,0 +1,45 @@
+.feedback-portal {
+    background-color: #5063f0;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .feedback-portal h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-portal .feedback-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feedback-portal img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-portal p {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-portal .highlight {
+    color: #00ff00; /* Change to the desired highlight color */
+  }
+  
+  .feedback-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feedback-button:hover {
+    background-color: #e60000;
+  }  

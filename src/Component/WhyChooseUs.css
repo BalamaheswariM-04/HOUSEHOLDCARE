@@ -1,0 +1,53 @@
+/* src/WhyChooseUs.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .why-choose-us-container {
+    text-align: center;
+    padding: 50px 20px;
+    background: #445;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    flex: 1;
+  }
+  
+  .feature-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007BFF; /* Blue color */
+  }
+  
+  .feature-description {
+    font-size: 16px;
+    color: #666;
+  }
+  
